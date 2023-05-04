@@ -1,4 +1,4 @@
-{% load static %}
+{% load static%}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,10 +10,83 @@
     <link
       rel="icon"
       href="{% static 'img/Medica_Logo.png' %}"
-      type=" image/png"
+      type="image/png"
     />
+   
+    <link rel="stylesheet" 
+    type="text/css"
+     href="{% static 'css/style.css' %}"
+    />
+
   </head>
   <body>
-    <h1>improving lives</h1>
+    <div class="Navigation">
+      <div class="navbar">
+        <img src="{% static 'img/Medica_Logo.png' %}" class="logo" alt="">
+        <nav>
+          <ul>
+            <li><a href="" class="sign-in">Sign in</a></li>
+            <li><a href="" class="Create">Create an account</a></li>
+        </nav>
+      </div>
+      <div class="Nav2">
+        <nav>
+          <h1>Medica HIMS</h1>
+          <ul>
+            <li><a href="" class="Services">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="main">
+      <img src="{% static 'img/lp 5.jpg' %}" class="Landing" alt="">
+      <div class="row">
+        <div class="Intro">
+          <h2>Hospital information management system</h2>
+         <p>
+         A hospital information management system (HIMS), <br>that provides comprehensive solutions <br>accessible 
+         with just one click<br> to meet all your requirements</p>
+        </div>
+        <div class="intro_2">
+          <p>Connect to all departments and <br> services in your hospital with just <br> one software</p>
+        </div>
+      </div>
+    </div>
+    <div class="line_2"></div>
+    <div class="collaborators">
+    <img src="{% static 'img/l6.png' %}" class="first" alt="">
+    <img src="{% static 'img/L3.jpg' %}" class="second" alt="">
+    <img src="{% static 'img/l7.png' %}" class="thrird" alt="">
+    <img src="{% static 'img/l8.jpg' %}" class="forth" alt="">
+    <img src="{% static 'img/l9.png' %}" class="fifth" alt="">
+    </div>
+    <div class="Tagline">
+      <h4>Medical Software for Hospitals</h4>
+    </div>
+    <div class="moreTags">
+        <P>INCLUDES EVERYTHING YOU NEED <br>
+          EASY TO IMPLEMENT AND ADOPT
+        </P>
+    </div>
+    <div class="description1">
+      <div class="line_3"></div>
+      <div class="tagLine4">
+       <p>In today's era, a hospital cannot operate efficiently
+        without <br> a digitized system that consolidates patient records,
+        scheduling, <br> billing, and financials into a single location <br>
+        optimized for rapid search and collaboration.</p>
+      </div>
+      <div class="tagLine5">
+        <p>A centralized platform for storing and managing patient information, <br>
+           such as medical history, test results, and treatment plans.
+          <br> With Medica you get a HIMS, that allows <i>EASY</i> access to patient<br>
+           information,which can lead to faster diagnosis and treatment.<br>
+           </p> 
+      </div>
+      <img src="{% static 'img/DASHBOAD IMAGE.jpg' %}" class="Dashboard" alt="">
+    
+
+    </div>
   </body>
-</html>
+</html

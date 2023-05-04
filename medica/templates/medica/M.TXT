@@ -1,0 +1,7 @@
+ <div class="tagLine5">
+        <p>Efficient and accurate data management for a centralized platform for <br>
+        storing and managing patient information, such as medical history, 
+        <br>test results, and treatment plans. With Medica you get a HIMS, 
+        that allows <i>EASY</i> access to patient information,
+        which can lead to faster diagnosis and treatment.</p> 
+      </div>
